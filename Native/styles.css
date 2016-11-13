@@ -1,0 +1,212 @@
+.iblock{position:relative;
+border-top:2px solid lightgrey;
+padding:-5px 0;
+_padding: 5px 0;
+}
+.iblock .title{position:absolute;
+top:-10px;
+left:20px;
+background-color:white;
+color:orange;
+font:14px Trebuchet MS,Tahoma,sans-serif;
+font-weight:bold;
+}
+
+
+#listing{width:202px; left:30px; height:auto;position:relative;overflow:hidden; font:12px Trebuchet MS,Tahoma,sans-serif;}
+
+#listing .head{ width:202px;height:30px;background-image:url(images/nw_more1.gif);background-position:top left; background-repeat:no-repeat;}
+
+#listing .fot{ position:relative;width:202px;height:27px;background-image:url(images/nw_more2.gif);background-position:top left; background-repeat:no-repeat;}
+
+#listing .fot .wrp{position:absolute;left:150px;top:5px}
+
+#listing .fot .wrp A{color:#1aadd9;font-weight:bold;font-size:13px;text-decoration:none; position:absolute;font-family:Trebuchet MS,Tahoma,sans-serif;}
+
+#listing .fot .wrp A:hover{text-decoration:underline;color:#147e9e;font-family:Trebuchet MS,Tahoma,sans-serif;}
+
+#listing .nwBody{ position:relative;color:#171717;font-weight:normal;font-size:11px;width:200px;height:102px;border-right:1px solid #cacece;border-left:1px solid #cacece;background-image:url(images/nw_more3.gif);background-position:bottom left; background-repeat:repeat-x }
+
+#listing .nwBodyOn{ position:relative;color:#171717;font-weight:normal;font-size:11px;width:200px;height:102px;border-right:1px solid #cacece;border-left:1px solid #cacece;background-image:url(images/nw_more4.gif);background-position:bottom left; background-repeat:repeat-x }
+
+#listing .nwBody  .img{width:55px;height:55px;border:1px solid #cacece;position:absolute;left:5px;top:8px;}
+
+#listing .nwBody  .info{width:125px;height:65px;position:absolute;left:70px;top:8px;}
+
+#listing .nwBody  A{color:#1aadd9;font-weight:bold;font-size:12px;font-family:Trebuchet MS,Tahoma,sans-serif;text-decoration:none}
+
+#listing .nwBody  A:hover{text-decoration:underline;font-family:Trebuchet MS,Tahoma,sans-serif;color:#147e9e;}
+
+.footer
+{
+position:absolute;
+background-image:url('images/footer.jpg');
+background-repeat: repeat-x;
+height: 90px;
+width: 100%;
+
+}
+.footerlink
+{
+color:#ffffff;
+font-size:11;
+font-family:Tahoma,Verdana;
+text-decoration: none;
+font-weight: bold;
+}
+.footerlink:hover
+{
+color:#ffffff;
+font-size:11;
+font-family:Tahoma,Verdana;
+text-decoration: underline;
+}
+.tabletext{
+font-size:11;
+font-family:Trebuchet MS,Tahoma,sans-serif;
+color: #000000;
+}
+.bgStyle
+{
+background-image:
+url('images/headerbg.png');
+background-repeat:
+repeat-x;
+}
+.bgfortable{
+	background-image:url(images/noolz_07.gif);
+	background-position:top;
+	background-repeat:repeat-x;
+	font-family: Tahoma;
+	font-size: 9px;
+	color: #666666;
+}
+
+.logo
+{
+background-image:url('images/logo2.png');
+background-repeat:no-repeat;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/logo2.png');
+}
+.txtBoxStyle{
+ border-top: 1px solid #000000;
+ border-bottom: 1px solid #000000;
+ border-left: 1px solid #000000;
+ border-right: 1px solid #000000;
+ background-color: #fffff;
+ font-family: comic sans MS;
+ font-size: 11px;
+ font-weight:bold;
+ color: #000000;
+}
+.buttons
+{
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	background-color: #d2f158;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+
+}
+.searchbox {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+.newgamesLink
+{
+color:#ffa500;
+font-size:11;
+font-family:Tahoma,Verdana;
+text-decoration: none;
+font-weight: bold;
+}
+.newgamesLink:hover
+{
+color:#99cc00;
+font-size:11;
+font-family:Tahoma,Verdana;
+text-decoration: none;
+}
+
+.greenintrotext{
+font-size:11;
+font-family:Tahoma,Verdana;
+color: #88a901;
+font-weight: bold;
+}
+.aboveLogin{
+font-size:13;
+font-family:Tahoma,Verdana;
+font-weight: bold;
+}
+.register
+{
+color:#88a901;
+font-size:13;
+font-family:Tahoma,Verdana;
+font-weight: bold;
+text-decoration: none;
+}
+.register:hover
+{
+color:#ffffff;
+font-size:13;
+font-family:Tahoma,Verdana;
+font-weight: bold;
+}
+.activetab
+{
+width: 111;
+height: 27;
+background-image:url('images/activegreen.png');
+background-repeat:
+no-repeat;
+font-family:Trebuchet MS,Tahoma,sans-serif;
+font-weight:bold;
+font-size: 16px;
+text-align:center;
+}
+.normaltab
+{
+width: 111;
+height: 27;
+background-image:url('images/normalgreen.png');
+background-repeat:
+no-repeat;
+font-family:Trebuchet MS,Tahoma,sans-serif;
+font-weight:bold;
+font-size: 16px;
+text-align:center;
+color:black;
+text-decoration:none;
+}
+.activetablinks{
+color: #ffffff;
+text-decoration:none;
+}
+.activetablinks:hover{
+color: #000000;
+text-decoration:none;
+}
+.normaltablinks{
+color: #000000;
+text-decoration:none;
+}
+.normaltablinks:hover{
+color: #ffffff;
+text-decoration:none;
+}
+.greenline
+{
+background-image:url("images/greenline.png");
+background-repeat:
+repeat-x;
+}

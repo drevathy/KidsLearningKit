@@ -1,0 +1,26 @@
+//#ArticleRightCol{width:202px;float:right;position:relative;height:auto;margin-top:23px;}
+
+#listing{width:202px;height:auto;position:relative;overflow:hidden}
+
+#listing .head{ width:202px;height:30px;background-image:url(images/nw_more1.gif);background-position:top left; background-repeat:no-repeat;}
+
+#listing .fot{ position:relative;width:202px;height:27px;background-image:url(images/nw_more2.gif);background-position:top left; background-repeat:no-repeat;}
+
+#listing .fot .wrp{position:absolute;left:40px;top:5px}
+
+#listing .fot .wrp A{color:#1aadd9;font-weight:bold;font-size:13px;text-decoration:none}
+
+#listing .fot .wrp A:hover{text-decoration:underline;color:#147e9e}
+
+#listing .nwBody{ position:relative;color:#171717;font-weight:normal;font-size:11px;width:200px;height:79px;border-right:1px solid #cacece;border-left:1px solid #cacece;background-image:url(images/nw_more3.gif);background-position:bottom left; background-repeat:repeat-x }
+
+#listing .nwBodyOn{ position:relative;color:#171717;font-weight:normal;font-size:11px;width:200px;height:79px;border-right:1px solid #cacece;border-left:1px solid #cacece;background-image:url(images/nw_more4.gif);background-position:bottom left; background-repeat:repeat-x }
+
+#listing .nwBody  .img{width:55px;height:55px;border:1px solid #cacece;position:absolute;left:5px;top:8px;}
+
+#listing .nwBody  .info{width:125px;height:65px;position:absolute;left:70px;top:8px;}
+
+#listing .nwBody  A{color:#1aadd9;font-weight:bold;font-size:12px;text-decoration:none}
+
+#listing .nwBody  A:hover{text-decoration:underline;color:#147e9e}
+
